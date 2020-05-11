@@ -1,4 +1,9 @@
 pipeline {
+      agent {
+      }
+  environment {
+        HOME = '.'
+    }
      stages {
         stage('Build') {
             steps {
